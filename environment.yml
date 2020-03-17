@@ -1,0 +1,16 @@
+name: covid_frontliners
+channels:
+  - defaults
+  - conda-forge
+  - ostrokach-forge
+  - pkgw-forge
+dependencies:
+  - numpy
+  - jupyter
+  - osmnx
+  - pandas
+  - networkx
+  - matplotlib
+  - cookiecutter
+prefix: /Users/Jeff/anaconda3/anaconda3/envs/covid_frontliners
+
