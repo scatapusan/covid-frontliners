@@ -1,6 +1,5 @@
 name: covid_frontliners
 channels:
-  - pip
   - defaults
   - conda-forge
   - ostrokach-forge
@@ -13,6 +12,7 @@ dependencies:
   - networkx
   - matplotlib
   - cookiecutter
+  - geopandas
   - pip:
     - OSMPythonTools
     
