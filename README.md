@@ -1,13 +1,14 @@
 Covid Frontliners
 ==============================
 
-Visualization of open establishments per city during the enhanced community quarantine
+Visualization of open establishments per city during the enhanced community quarantine.
+
+We used Conda to build the project. To replicate, install anaconda (https://docs.anaconda.com/anaconda/install/) and run `conda env create -f environment.yml`.
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
