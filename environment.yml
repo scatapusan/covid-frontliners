@@ -1,5 +1,6 @@
 name: covid_frontliners
 channels:
+  - pip
   - defaults
   - conda-forge
   - ostrokach-forge
@@ -12,5 +13,7 @@ dependencies:
   - networkx
   - matplotlib
   - cookiecutter
+  - pip:
+    - OSMPythonTools
+    
 prefix: /Users/Jeff/anaconda3/anaconda3/envs/covid_frontliners
-
